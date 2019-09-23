@@ -31,5 +31,5 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 ### Code to Test with Sample Data locally
-In the src/App.js file un - comment the line 46 - 84; 
+In the src/App.js file un - comment the line 44 - 84; 
 
