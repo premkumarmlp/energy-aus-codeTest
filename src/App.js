@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Records from "./components/records";
+
 class App extends Component {
   render() {
     const transformModel = fests => {
@@ -40,9 +41,10 @@ class App extends Component {
       <Records records={transformModel(this.state.records).recordLabels} />
     );
   }
-  /*state = {
-    records: []
-  };*/
+  state = { records: [] };
+
+  /* Test Data For App */
+
   state = {
     records: [
       {
