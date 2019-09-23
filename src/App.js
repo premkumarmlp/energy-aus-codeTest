@@ -33,19 +33,16 @@ class App extends Component {
           rcd.bands.push(_bands);
         });
       });
-
       return result;
     };
-
     return (
       <Records records={transformModel(this.state.records).recordLabels} />
     );
   }
   state = { records: [] };
 
-  /* Test Data For App */
-
-  state = {
+  /* Test Data For App 
+   state = {
     records: [
       {
         name: "Omega Festival",
@@ -84,7 +81,7 @@ class App extends Component {
       }
     ]
   };
-
+*/
   componentDidMount() {
     const proxyurl = "https://cors-anywhere.herokuapp.com/";
     const url =
